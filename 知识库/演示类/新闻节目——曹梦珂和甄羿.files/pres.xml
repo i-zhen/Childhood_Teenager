@@ -1,0 +1,49 @@
+<xml xmlns:v="urn:schemas-microsoft-com:vml"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:p="urn:schemas-microsoft-com:office:powerpoint">
+ <p:presentation>
+  <p:master id="4" type="main" href="master04.htm" xmlhref="master04.xml"
+   template="公司简介" layout="title_body"
+   slots="title,body,dateTime,footer,slideNumber">
+   <p:schemes>
+    <p:colorscheme
+     colors="#0099CC,#000000,#868686,#FFFFFF,#00FFCC,#969696,#00FFCC,#99CCFF"/>
+    <p:colorscheme
+     colors="#FFFFFF,#000000,#868686,#000000,#3366FF,#009900,#FF0033,#CCCCCC"/>
+    <p:colorscheme
+     colors="#FFFFFF,#5F5F5F,#808080,#5F5F5F,#969696,#000000,#777777,#CCCCCC"/>
+   </p:schemes>
+  </p:master>
+  <p:master id="5" type="title" href="master05.htm" xmlhref="master05.xml"
+   layout="title_subtitle"
+   slots="centerTitle,subTitle,dateTime,footer,slideNumber"/>
+  <p:master id="1" type="notes" href="master01.htm" layout="notes"
+   slots="header,dateTime,slideImage,body,footer,slideNumber"/>
+  <p:master id="2" type="handout" href="master02.htm" layout="handout"
+   slots="header,dateTime,footer,slideNumber"/>
+  <p:slide id="2" href="slide0002.htm" masterhref="master05.htm"
+   layout="title_subtitle" slots="centerTitle,subTitle">
+   <p:headersfooters noheader="t"/>
+  </p:slide>
+  <p:slide id="6" href="slide0006.htm" layout="title_body" slots="title,body"/>
+  <p:slide id="7" href="slide0007.htm" layout="title_body" slots="title,body"/>
+  <p:slide id="11" href="slide0011.htm" layout="title_body" slots="title,body"/>
+  <p:slide id="12" href="slide0012.htm"/>
+  <p:slide id="13" href="slide0013.htm"/>
+  <p:viewstate type="slideView"/>
+  <p:font name="Times New Roman" charset="0" type="4" family="18"/>
+  <p:font name="宋体" charset="134" type="4" family="2"/>
+  <p:font name="Marlett" charset="2" type="4" family="2"/>
+  <p:font name="方正姚体" charset="134" type="4" family="2"/>
+  <p:font name="Wingdings" charset="2" type="4" family="2"/>
+  <p:font name="华文行楷" charset="134" type="4" family="2"/>
+  <p:font name="华文隶书" charset="134" type="4" family="2"/>
+  <p:headersfooters noheader="t"/>
+  <p:pptdocumentsettings framecolors="WhiteTextOnBlack" hideslideanimation="t"/>
+ </p:presentation>
+ <o:shapedefaults v:ext="edit" spidmax="52227">
+  <v:stroke startarrowwidth="narrow" startarrowlength="short" endarrowwidth="narrow"
+   endarrowlength="short" color2="none [0]" weight="1pt" endcap="square"/>
+  <o:colormru v:ext="edit" colors="#f06"/>
+  <o:colormenu v:ext="edit" strokecolor="#f06"/>
+ </o:shapedefaults></xml>
